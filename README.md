@@ -1,16 +1,27 @@
-# aplicacion_casa_jamon
+# La Casa del Jamón - Simulador de Pedidos
 
 ## Descripción
-Bienvenido al simulador de pedidos de "La Casa del Jamón". Este proyecto permite a los usuarios simular la realización de pedidos de un restaurante 
-especializado en productos de jamón y otros embutidos. 
-La interacción se realiza íntegramente a través de la consola de JavaScript y cuadros de diálogo.
+Esta aplicación web simula un proceso de pedido de productos en "La Casa del Jamón". Permite a los usuarios agregar productos al carrito, mostrar el total de la compra y finalizar el pedido.
 
-## Objetivos
-- Declarar variables, constantes y arrays.
-- Crear una o más funciones JavaScript que generen interacción.
-- Agregar los ciclos de iteración y/o condicionales necesarios para que el proyecto funcione correctamente.
-- Integrar el uso de la Consola JS y de los cuadros de diálogo `Prompt`, `Confirm` y `Alert`.
+## Tecnologías Utilizadas
+- HTML
+- CSS
+- JavaScript (DOM, Eventos, localStorage)
 
-## Requisitos
-- Documento HTML, al menos uno.
-- Archivo JS referenciado en el HTML.
+## Estructura del Proyecto
+- **index.html**: Contiene la estructura del simulador de pedidos.
+- **app.js**: Lógica para gestionar el menú, el pedido y la interacción con el usuario.
+- **style.css**: Estilos básicos para la aplicación.
+- **README.md**: Documentación del proyecto.
+
+## Funcionalidades
+1. Mostrar el menú dinámicamente en la interfaz.
+2. Agregar productos al pedido mediante eventos de click.
+3. Guardar el pedido en `localStorage` para persistir los datos.
+4. Mostrar el total del pedido y finalizarlo, eliminando los datos del carrito.
+
+## Cómo Usar
+1. Abre `index.html` en un navegador.
+2. Agrega productos al pedido haciendo clic en los botones "Agregar al pedido".
+3. Revisa los productos añadidos y el total en la sección "Tu Pedido".
+4. Haz clic en "Finalizar Pedido" cuando hayas terminado.
